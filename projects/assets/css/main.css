@@ -268,12 +268,12 @@ pre {
 		.header .logo {
 			display: block;
 			border-bottom: 0;
-			color: inherit;
-			font-weight: 900;
-			letter-spacing: 0.35em;
+			color: #000000;
+			font-weight: 600;
+			letter-spacing: 0.07em;
 			margin: 0 0 2.5em 0;
 			text-decoration: none;
-			text-transform: uppercase;
+			text-transform: unset;
 			display: inline-block;
 		}
 
@@ -667,6 +667,8 @@ button[disabled], html input[disabled] {
 			height: auto;
 			top: 15px;
 			padding: 30px;
+			margin-right: -28px;
+			margin-top: 4px;
 		}
 
 		.nav-bars i {
